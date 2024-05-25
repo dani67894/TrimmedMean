@@ -30,7 +30,7 @@ import (
 	"github.com/dani67894/TrimmedMean/trimmedmean"
 )
 func main() {
-	data := []float64{1.0, 2.0, 3.0, 4.0, 5.0}
+	data := []float64{1.0, 2.0, 3.0, 4.0, 5.0} 
 	trimmedMean, err := trimmedmean.TrimmedMean(data, 0.1)
 	if err != nil {
 		fmt.Println("Error computing trimmed mean:", err)
